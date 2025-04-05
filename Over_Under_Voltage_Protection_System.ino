@@ -8,8 +8,10 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);  // Pins for the LCD
 const int voltageSensorPin = A0;  // Pin for the AC voltage sensor
 const int relayPin = 7;           // Pin for the relay
 
-const float overVoltageThreshold = 250.0;   // Define your over-voltage threshold (in volts)
-const float underVoltageThreshold = 180.0;  // Define your under-voltage threshold (in volts)
+const float overVoltageThreshold = 250.0;  
+ // Define your over-voltage threshold (in volts)
+const float underVoltageThreshold = 180.0;  
+// Define your under-voltage threshold (in volts)
 
 void setup() 
 {
